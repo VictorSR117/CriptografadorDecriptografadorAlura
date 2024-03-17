@@ -1,0 +1,29 @@
+@import '../mixins';
+@import '../variables';
+
+.text-field--area {
+    @include justify-items-center;
+    margin-top: 3rem;
+}
+
+.input--area {
+    margin-right: 13em;
+}
+
+.textRecived {
+    background-color: transparent;
+    height: 3em;
+    width: 90vw;
+    resize: none;
+    outline: none;
+    color: $dark-blue-300;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+
+    &::placeholder {
+        color: $dark-blue-300;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20pt;
+        background-color: transparent;
+    }
+}

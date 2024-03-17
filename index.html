@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografador/Descriptografador</title>
+    <link rel="stylesheet" href="src/assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header-menu">
+        <img src="src/assets/img/Top.svg" alt="logo da Alura">
+    </header>
+    <main class="main-content">
+        <section class="text-field--area">
+            <div class="container">
+                <div class="input--area">
+                    <textarea name="txt" class="textRecived resizeTextArea" id="textRecived"
+                        placeholder="Digite seu texto"></textarea>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <img src="src/assets/img/exclamacao.svg" alt="">
+            </div>
+
+            <div class="container">
+                <div class="buttons">
+                    <button class="btn--dark-blue first-letter-bigger" id="criptographText">criptografar</button>
+                    <button class="btn--light-blue first-letter-bigger" id="decriptographText">descriptografar</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="result">
+                    <div class="content-result" id="showResult">
+                        <h2 class="result--title first-letter-bigger">Nenhuma mensagem encontrada</h2>
+                        <p class="result--info first-letter-bigger">
+                            Digite um texto que você deseja criptografar ou
+                            descriptografar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="src/assets/js/script.js"></script>
+    <script src="src/assets/js/resizeTextArea.js"></script>
+    <script src="src/assets/js/validateText.js"></script>
+    <script src="src/assets/js/titleMsg.js"></script>
+    <script src="src/assets/js/generateCopyBtn.js"></script>
+</body>
+
+</html>

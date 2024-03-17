@@ -1,0 +1,18 @@
+@import 'reset.scss';
+@import 'variables.scss';
+@import 'mixins';
+@import 'components/buttons.scss';
+@import 'header';
+@import 'inputs/textField';
+@import 'inputs/informationsInputText';
+@import 'container.scss';
+@import 'buttonsArea';
+@import 'results';
+
+body {
+    background-color: $light-blue-300;
+}
+
+.first-letter-bigger::first-letter {
+    text-transform: uppercase;
+}
